@@ -1,0 +1,5 @@
+hello
+<form action="script.py" method="post">
+  <input type="text" name="number" size="3"> 
+  <input type="submit" value="Submit">
+</form>
