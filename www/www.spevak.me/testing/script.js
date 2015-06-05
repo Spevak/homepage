@@ -1,7 +1,19 @@
+//Main page (update when page loads)
 var indexBody = {};
 
-function removeBody() {
+//Layouts
+layoutA = el('div', 'outer', '', [
+  el('div', '', 'inner', ['inner'])])
+
+IndexBtn = el('button', 'indexBtn', '', ['Back to layouts'])
+IndexBtn.click(index);
+
+//Load layout
+function layout(layoutObj) {
   $('body').remove();
+  $('html').append($('<body></body'));
+  $('body').append(layoutObj);
+  $('body').append(IndexBtn);
 }
 
 function index() {
@@ -22,8 +34,10 @@ function el(type, id, classes, children) {
   if (classes) {
     element.attr('class', classes);
   }
-  for (var i = 0; i < children.length; i++) {
-    element.append(children[i]);
+  if (children) {
+    for (var i = 0; i < children.length; i++) {
+      element.append(children[i]);
+    }
   }
   return element;
 }
