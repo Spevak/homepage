@@ -3,7 +3,18 @@ var indexBody = {};
 
 //Layouts
 layoutA = el('div', 'outer', '', [
-  el('div', '', 'inner', ['inner'])])
+  el('div', '', 'inner', ['inner'])]);
+
+layoutB = el('div', 'outer', '', [
+  el('div', '', 'L2', [
+    el('div', '', 'inner', ['1']),
+    el('div', '', 'inner', ['2'])
+  ]),
+  el('div', '', 'L2', [
+    el('div', '', 'inner', ['3']),
+    el('div', '', 'inner', ['4'])
+  ])
+]);
 
 IndexBtn = el('button', 'indexBtn', '', ['Back to layouts'])
 

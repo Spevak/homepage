@@ -2,10 +2,6 @@ body {
   background: #DDDDDD;
 }
 
-div {
-  margin: 100px;
-}
-
 #outer {
   height: 90%;
   width: 90%;
@@ -18,5 +14,5 @@ div {
 
 .inner {
   display: inline-block;
-  background: orage;
+  background: orange;
 }
