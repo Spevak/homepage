@@ -1,3 +1,5 @@
+var indexBody = {};
+
 function removeBody() {
   $('body').remove();
 }
@@ -8,5 +10,5 @@ function index() {
 }
 
 $(document).ready(function() {
-  var indexBody = $('body');
+  indexBody = $('body');
 });
