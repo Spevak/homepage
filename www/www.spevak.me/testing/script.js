@@ -1,3 +1,3 @@
 function testo() {
-  console.log('testo');
+  console.log($('body'))
 }
