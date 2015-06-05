@@ -1,9 +1,5 @@
-function testo() {
-  console.log($('body'))
-}
-
 function removeBody() {
-  $('body').remove()
+  $('body').remove();
 }
 
 function index() {
@@ -13,4 +9,4 @@ function index() {
 
 $(document).ready(function() {
   var indexBody = $('body');
-}
+});
