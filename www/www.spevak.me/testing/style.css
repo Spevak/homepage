@@ -1,3 +1,22 @@
 body {
   background: #DDDDDD;
 }
+
+div {
+  margin: 100px;
+}
+
+#outer {
+  height: 90%;
+  width: 90%;
+  background: #999999;
+}
+
+.L2 {
+  background: blue;
+}
+
+.inner {
+  display: inline-block;
+  background: orage;
+}
