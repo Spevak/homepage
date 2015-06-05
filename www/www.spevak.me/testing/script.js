@@ -25,4 +25,5 @@ function el(type, id, classes, children) {
   for (var i = 0; i < children.length; i++) {
     element.append(children[i]);
   }
+  return element;
 }
