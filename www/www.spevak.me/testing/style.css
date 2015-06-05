@@ -3,16 +3,19 @@ body {
 }
 
 #outer {
-  height: 90%;
-  width: 90%;
   background: #999999;
+  margin: 100px 100px;
 }
 
 .L2 {
   background: blue;
+  height: 100px;
+  margin: 50px 50px
 }
 
 .inner {
   display: inline-block;
   background: orange;
+  width: 50px;
+  margin: 20px 20px;
 }
