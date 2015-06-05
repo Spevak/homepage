@@ -6,13 +6,13 @@ layoutA = el('div', 'outer', '', [
   el('div', '', 'inner', ['inner'])])
 
 IndexBtn = el('button', 'indexBtn', '', ['Back to layouts'])
-IndexBtn.click(index);
 
 //Load layout
 function layout(layoutObj) {
   $('body').remove();
   $('html').append($('<body></body'));
   $('body').append(layoutObj);
+  IndexBtn.click(index);
   $('body').append(IndexBtn);
 }
 
