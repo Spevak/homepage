@@ -2,7 +2,7 @@ body {
   background: #DDDDDD;
 }
 
-#outer {
+#outer, #outer1, #outer2 {
   background: #999999;
   margin: 100px 100px;
 }

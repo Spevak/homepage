@@ -16,6 +16,30 @@ layoutB = el('div', 'outer', '', [
   ])
 ]);
 
+layoutC = el('div', 'outer', 'outerClass', [
+  el('div', '', 'firstChildClass', [
+    el('div', '', 'L2 firstChildClass', [
+      el('div', '', 'inner active', ['1']),
+      el('div', '', 'inner inactive', ['2'])
+    ]),
+    el('div', '', 'L2', [
+      el('div', '', 'inner', ['3']),
+      el('div', '', 'inner', ['4'])
+    ])
+  ]),
+  el('div', '', '', [
+    el('div', '', 'L2', [
+      el('div', '', 'inner', ['5']),
+      el('div', '', 'inner', ['6'])
+    ]),
+    el('div', '', 'L2', [
+      el('div', '', 'inner', ['7']),
+      el('div', '', 'inner', ['8'])
+    ])
+  ])
+]);
+
+
 IndexBtn = el('button', 'indexBtn', '', ['Back to layouts'])
 
 //Load layout
